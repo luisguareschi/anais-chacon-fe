@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import "./globals.css";
 import Providers from "@/app/providers";
 import { Toaster } from "react-hot-toast";
 
-const font = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+const font = Quicksand({
+  weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "BaseApp",
-  description: "A next js template for building apps",
+  title: "ISE Consulting",
+  description: "International Impact & Social Economy Consulting",
 };
 
 export default function RootLayout({
