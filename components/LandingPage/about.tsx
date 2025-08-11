@@ -3,19 +3,19 @@ import { useTranslation } from "react-i18next";
 
 const aboutItems = [
   {
-    title: "Crecimiento de Índice de desarrollo humano",
+    title: "aboutUs.item1",
     icon: <TrendingUp />,
   },
   {
-    title: "Libertades económicas e individuales",
+    title: "aboutUs.item2",
     icon: <ShieldCheck />,
   },
   {
-    title: "Aumento de la calidad de vida",
+    title: "aboutUs.item3",
     icon: <Heart />,
   },
   {
-    title: "Transparencia y sostenibilidad",
+    title: "aboutUs.item4",
     icon: <Eye />,
   },
 ];
@@ -26,13 +26,15 @@ interface AboutItemProps {
 }
 
 const AboutItem = ({ title, icon }: AboutItemProps) => {
+  const { t } = useTranslation();
+
   return (
     <div
       className="flex gap-2 items-center bg-neutral-100 text-neutral-900 
     p-4 rounded-md w-full text-sm md:text-base"
     >
       {icon}
-      <p>{title}</p>
+      <p>{t(title)}</p>
     </div>
   );
 };
@@ -42,7 +44,7 @@ export const About = () => {
 
   return (
     <div
-      className="flex flex-col px-4 md:px-10 py-10 md:py-20 gap-8 md:gap-12 max-w-6xl mx-auto"
+      className="flex flex-col px-4 md:px-10 gap-8 md:gap-12 max-w-6xl mx-auto"
       id="about"
     >
       <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center">

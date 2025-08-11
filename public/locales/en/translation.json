@@ -13,7 +13,11 @@
   "aboutUs": {
     "title": "About Us",
     "p1": "International Impact & Social Economy Consulting (ISE), is an international consulting firm, specialized in the strategic management of international cooperation programs and social economy projects.",
-    "p2": "Located in the Grand Duchy of Luxembourg, our consulting firm bridges Europe and the world. We work with government agencies, companies and entities from the public and private sectors around the world to improve the quality of services offered to communities in terms of:"
+    "p2": "Located in the Grand Duchy of Luxembourg, our consulting firm bridges Europe and the world. We work with government agencies, companies and entities from the public and private sectors around the world to improve the quality of services offered to communities in terms of:",
+    "item1": "Human Development Index Growth",
+    "item2": "Economic and Individual Freedoms",
+    "item3": "Quality of Life Increase",
+    "item4": "Transparency and Sustainability"
   },
   "sectors": {
     "title": "We work in sectors such as:",
@@ -23,5 +27,13 @@
     "transportDescription": "Transportation systems and sustainable mobility solutions",
     "waterDescription": "Water management and sanitation infrastructure",
     "agricultureDescription": "Agricultural development and social programs"
+  },
+  "executiveDirector": {
+    "our": "Our",
+    "executiveDirector": "Executive Director",
+    "name": "Anais Chacón",
+    "description": "Our Executive Director, Anais Chacón, has solid academic training in International Relations and Diplomacy, backed by more than 15 years of experience in international cooperation projects, in situ, providing advice to various developing countries, especially in Latin America.",
+    "quote": "I am committed to the development of the countries in which we work, with the aim of improving the quality of life of the people who live there.",
+    "description2": "At International Impact & Social Economy Consulting (ISE), we are ready to accompany you with our services in the social development and international cooperation sector, providing experience, innovation and commitment."
   }
 }
