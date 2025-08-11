@@ -1,3 +1,4 @@
+import { constants } from "@/lib/constants";
 import { Separator } from "../ui/separator";
 import { cn } from "@/lib/utils";
 import { Mail, MapPin } from "lucide-react";
@@ -42,16 +43,12 @@ export const Footer = () => {
                 Social Economy Consulting
               </span>
             </h1>
-            <ItemWithIcon icon={<MapPin />}>
-              Colors Business Center, 15, rue de l&apos;industrie, L-8069
-              Bertrange - Luxembourg.
+            <ItemWithIcon icon={<MapPin size={22} />}>
+              {constants.address}
             </ItemWithIcon>
-            <ItemWithIcon icon={<Mail />}>
-              <a
-                href="mailto:info@internationalimpact.lu"
-                className="hover:underline"
-              >
-                info@internationalimpact.lu
+            <ItemWithIcon icon={<Mail size={16} />}>
+              <a href={`mailto:${constants.email}`} className="hover:underline">
+                {constants.email}
               </a>
             </ItemWithIcon>
           </Container>
@@ -63,16 +60,12 @@ export const Footer = () => {
                 Executive Director
               </span>
             </h1>
-            <p>
-              Business permit: Nº 10165359/4. Authorized by le Gouvernement du
-              Grand-Duché Du Luxembourg
-            </p>
+            <p>{constants.businessPermit}</p>
           </Container>
         </div>
         <Separator className="bg-slate-800" />
         <p className="text-center text-xs text-slate-400">
-          © 2025 International Impact & Social Economy Consulting Anais Chacón.
-          All rights reserved.
+          {constants.copyright}
         </p>
       </div>
     </div>
