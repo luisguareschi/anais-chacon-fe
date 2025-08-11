@@ -6,11 +6,22 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../ui/select";
+import { useTranslation } from "react-i18next";
+import { cn } from "@/lib/utils";
 
-export const SelectLanguage = () => {
+interface SelectLanguageProps {
+  className?: string;
+}
+
+export const SelectLanguage = ({ className }: SelectLanguageProps) => {
+  const { i18n } = useTranslation();
+
   return (
-    <Select defaultValue="es">
-      <SelectTrigger className="rounded-full text-base">
+    <Select
+      value={i18n.language}
+      onValueChange={(value) => i18n.changeLanguage(value)}
+    >
+      <SelectTrigger className={cn("rounded-full text-base", className)}>
         <Globe />
         <SelectValue />
       </SelectTrigger>

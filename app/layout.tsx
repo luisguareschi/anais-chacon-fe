@@ -3,6 +3,7 @@ import { Quicksand } from "next/font/google";
 import "./globals.css";
 import Providers from "@/app/providers";
 import { Toaster } from "react-hot-toast";
+import LanguageProvider from "./languageProvider";
 
 const font = Quicksand({
   weight: ["300", "400", "500", "600", "700"],
@@ -20,10 +21,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <Providers>
-          {children}
-          <Toaster />
-        </Providers>
+        <LanguageProvider>
+          <Providers>
+            {children}
+            <Toaster />
+          </Providers>
+        </LanguageProvider>
       </body>
     </html>
   );

@@ -1,18 +1,18 @@
 export const navbarItems = [
   {
-    label: "Inicio",
+    label: "home",
     href: "/",
   },
   {
-    label: "Nosotros",
+    label: "about",
     href: "/about",
   },
   {
-    label: "Servicios",
+    label: "services",
     href: "/services",
   },
   {
-    label: "Contacto",
+    label: "contact",
     href: "/contact",
   },
 ];

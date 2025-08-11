@@ -1,0 +1,27 @@
+{
+  "home": "Home",
+  "about": "About",
+  "services": "Services",
+  "contact": "Contact",
+  "hero": {
+    "title1": "From need to action",
+    "title2": "We drive projects that transform realities at a global level",
+    "description": "Specialists in evaluation, monitoring, design and advice on projects and policies development at a global level",
+    "contact": "Contact us",
+    "learnMore": "Learn more"
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "p1": "International Impact & Social Economy Consulting (ISE), is an international consulting firm, specialized in the strategic management of international cooperation programs and social economy projects.",
+    "p2": "Located in the Grand Duchy of Luxembourg, our consulting firm bridges Europe and the world. We work with government agencies, companies and entities from the public and private sectors around the world to improve the quality of services offered to communities in terms of:"
+  },
+  "sectors": {
+    "title": "We work in sectors such as:",
+    "transport": "Mobility - Transport",
+    "water": "Environment - Water and Sanitation",
+    "agriculture": "Agriculture - Social Development",
+    "transportDescription": "Transportation systems and sustainable mobility solutions",
+    "waterDescription": "Water management and sanitation infrastructure",
+    "agricultureDescription": "Agricultural development and social programs"
+  }
+}
