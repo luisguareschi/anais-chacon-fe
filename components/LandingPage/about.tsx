@@ -50,12 +50,8 @@ export const About = () => {
       <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center">
         {t("aboutUs.title")}
       </h1>
-      <p className="text-lg md:text-xl lg:text-xl font-normal md:text-center">
-        {t("aboutUs.p1")}
-      </p>
-      <p className="text-lg md:text-xl lg:text-xl font-normal md:text-center">
-        {t("aboutUs.p2")}
-      </p>
+      <p className="md:text-lg font-normal md:text-center">{t("aboutUs.p1")}</p>
+      <p className="md:text-lg font-normal md:text-center">{t("aboutUs.p2")}</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {aboutItems.map((item) => (
           <AboutItem key={item.title} title={item.title} icon={item.icon} />

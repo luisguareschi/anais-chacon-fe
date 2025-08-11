@@ -3,6 +3,8 @@ import { Hero } from "./hero";
 import { About } from "./about";
 import { Sectors } from "./sectors";
 import { ExecutiveDirector } from "./executive-director";
+import { CallToAction } from "./call-to-action";
+import { Footer } from "../common/footer";
 
 export const LandingPage = () => {
   return (
@@ -13,6 +15,8 @@ export const LandingPage = () => {
         <About />
         <Sectors />
         <ExecutiveDirector />
+        <CallToAction />
+        <Footer />
       </div>
     </div>
   );
