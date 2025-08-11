@@ -39,5 +39,29 @@
   "callToAction": {
     "title": "Interested in learning more about International Impact & Social Economy Consulting?",
     "contact": "Contact us"
+  },
+  "servicesSection": {
+    "title": "Our Services",
+    "description": "We focus on offering solutions tailored to the needs of our clients and the particularities of each sector. Our transformation formula is recognized by the United Nations and by a large number of member countries of the European Union.",
+    "service1": {
+      "title": "Research and Innovation in the social economy sector",
+      "description": "Identification of needs and opportunities, we analyze the main problems, challenges and emerging trends that affect social economy entities (cooperatives, associations, foundations, social enterprises, etc.). Design and execution of applied research projects, we develop qualitative and quantitative research, including case studies, comparative analysis, surveys and in-depth interviews. We promote social innovation, facilitate collaborative processes (innovation laboratories, co-creation, social hackathons) to design novel and sustainable solutions to specific social problems."
+    },
+    "service2": {
+      "title": "Technical advisory services for international cooperation and social economy projects",
+      "description": "Through project formulation and design, we support the conceptualization and technical structuring of projects aligned with the Sustainable Development Goals (SDGs), international cooperation priorities and social economy frameworks. We develop logical frameworks, theories of change, budgets and schedules, ensuring coherence between objectives, activities and indicators. We assist in writing proposals for funding calls (EU, cooperation agencies, foundations, etc.)."
+    },
+    "service3": {
+      "title": "Project management: Design, evaluation, development, monitoring and follow-up",
+      "description": "We design monitoring systems with qualitative and quantitative indicators that allow measuring the progress, results and impact of projects. We conduct intermediate and final evaluations, incorporating learnings and practical recommendations for continuous improvement."
+    },
+    "service4": {
+      "title": "Public policy advisory and strategic alliances",
+      "description": "From International Impact & Social Economy Consulting (ISE), we offer specialized advisory services for the analysis, design and strengthening of public policies that promote the social economy, as well as for the creation of strategic alliances that generate sustainable and transformative impact. We conduct diagnostics on regulatory frameworks, public programs and national/regional strategies that affect the social economy sector."
+    },
+    "service5": {
+      "title": "Training and capacity building",
+      "description": "We diagnose training needs, evaluate the level of existing capacities in organizations or territories, identifying key gaps and priorities. We design customized training plans, aligned with the strategic objectives of each actor. We offer specialized workshops, courses and modules (face-to-face, virtual or hybrid) on topics such as: Management of social economy organizations, Social innovation and purpose-driven entrepreneurship, Participatory governance and collective leadership, Project formulation and management with impact approach, Strategic alliances and international cooperation, Social impact measurement, Access to financing and European funds."
+    }
   }
 }

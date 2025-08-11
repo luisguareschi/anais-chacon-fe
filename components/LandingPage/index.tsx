@@ -5,6 +5,7 @@ import { Sectors } from "./sectors";
 import { ExecutiveDirector } from "./executive-director";
 import { CallToAction } from "./call-to-action";
 import { Footer } from "../common/footer";
+import { Services } from "./services";
 
 export const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ export const LandingPage = () => {
         <Sectors />
         <ExecutiveDirector />
         <CallToAction />
+        <Services />
         <Footer />
       </div>
     </div>

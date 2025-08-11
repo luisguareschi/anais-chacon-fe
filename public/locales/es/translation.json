@@ -39,5 +39,29 @@
   "callToAction": {
     "title": "¿Estás interesado en aprender más sobre International Impact & Social Economy Consulting?",
     "contact": "Contáctanos"
+  },
+  "servicesSection": {
+    "title": "Nuestros Servicios",
+    "description": "Nos enfocamos en ofrecer soluciones adaptadas a las necesidades del cliente y a las particularidades de cada sector. Nuestra fórmula de transformación es reconocida por la Organización de las Naciones Unidas y por un gran número de países miembros de la Unión Europea.",
+    "service1": {
+      "title": "Investigación e Innovación en el sector de la economía social",
+      "description": "Identificación de necesidades y oportunidades, analizamos las principales problemáticas, desafíos y tendencias emergentes que afectan a las entidades de la economía social (cooperativas, asociaciones, fundaciones, empresas sociales, etc.). Diseño y ejecución de proyectos de investigación aplicada, desarrollamos investigaciones cualitativas y cuantitativas, incluyendo estudios de caso, análisis comparativos, encuestas y entrevistas en profundidad. Promovemos la innovación social, facilitamos procesos colaborativos (laboratorios de innovación, co-creación, hackathons sociales) para diseñar soluciones novedosas y sostenibles a problemas sociales específicos."
+    },
+    "service2": {
+      "title": "Servicios de asesoría técnica para proyectos de cooperación internacional y economía social",
+      "description": "A través de la formulación y diseño de proyectos, apoyamos en la conceptualización y estructuración técnica de proyectos alineados con los Objetivos de Desarrollo Sostenible (ODS), prioridades de cooperación internacional y marcos de economía social. Elaboramos marcos lógicos, teorías del cambio, presupuestos y cronogramas, asegurando la coherencia entre los objetivos, actividades e indicadores. Asistimos en la redacción de propuestas para convocatorias de financiación (UE, agencias de cooperación, fundaciones, etc.)."
+    },
+    "service3": {
+      "title": "Gestión de proyectos: Diseño, evaluación desarrollo, seguimiento y monitoreo",
+      "description": "Diseñamos sistemas de monitoreo con indicadores cualitativos y cuantitativos que permiten medir el progreso, los resultados y el impacto de los proyectos. Realizamos evaluaciones intermedias y finales, incorporando aprendizajes y recomendaciones prácticas para la mejora continua."
+    },
+    "service4": {
+      "title": "Asesoría en Políticas públicas y alianzas estratégicas",
+      "description": "Desde International Impact & Social Economy Consulting (ISE), ofrecemos servicios de asesoría especializada para el análisis, diseño y fortalecimiento de políticas públicas que promuevan la economía social, así como para la creación de alianzas estratégicas que generen impacto sostenible y transformador. Realizamos diagnósticos sobre marcos normativos, programas públicos y estrategias nacionales/regionales que afectan al sector de la economía social."
+    },
+    "service5": {
+      "title": "Capacitación y mejora de capacidades",
+      "description": "Diagnosticamos las necesidades formativas, evaluamos el nivel de capacidades existentes en las organizaciones o territorios, identificando brechas y prioridades clave. Diseñamos planes formativos a medida, alineados con los objetivos estratégicos de cada actor. Ofrecemos talleres, cursos y módulos especializados (presenciales, virtuales o híbridos) en temáticas como: Gestión de organizaciones de economía social, Innovación social y emprendimiento con propósito, Gobernanza participativa y liderazgo colectivo, Formulación y gestión de proyectos con enfoque de impacto, Alianzas estratégicas y cooperación internacional, Medición de impacto social, Acceso a financiamiento y fondos europeos."
+    }
   }
 }

@@ -30,7 +30,7 @@ const AboutItem = ({ title, icon }: AboutItemProps) => {
 
   return (
     <div
-      className="flex gap-2 items-center bg-neutral-100 text-neutral-900 
+      className="flex gap-2 items-center bg-slate-100 text-neutral-900 
     p-4 rounded-md w-full text-sm md:text-base"
     >
       {icon}
