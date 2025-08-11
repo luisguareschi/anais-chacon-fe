@@ -25,7 +25,7 @@ export const Navbar = () => {
   );
 
   return (
-    <nav className="flex w-full h-20 bg-white sticky top-0 z-50 justify-between items-center lg:px-10 px-4 border-b border-neutral-200">
+    <nav className="flex w-full h-20 backdrop-blur-xl bg-white/80 sticky top-0 z-50 justify-between items-center lg:px-10 px-4 border-b border-neutral-200">
       <LogoWithTitle />
       <div className="items-center gap-0 hidden lg:flex">
         {navbarItems.map((item) => (
