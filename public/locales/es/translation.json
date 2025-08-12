@@ -63,5 +63,18 @@
       "title": "Capacitación y mejora de capacidades",
       "description": "Diagnosticamos las necesidades formativas, evaluamos el nivel de capacidades existentes en las organizaciones o territorios, identificando brechas y prioridades clave. Diseñamos planes formativos a medida, alineados con los objetivos estratégicos de cada actor. Ofrecemos talleres, cursos y módulos especializados (presenciales, virtuales o híbridos) en temáticas como: Gestión de organizaciones de economía social, Innovación social y emprendimiento con propósito, Gobernanza participativa y liderazgo colectivo, Formulación y gestión de proyectos con enfoque de impacto, Alianzas estratégicas y cooperación internacional, Medición de impacto social, Acceso a financiamiento y fondos europeos."
     }
+  },
+  "contactSection": {
+    "title": "Ponte en Contacto",
+    "description": "¿Listo para comenzar tu próximo proyecto? Nos encantaría saber de ti. Envíanos un mensaje y responderemos lo antes posible.",
+    "contact": "Contacto",
+    "location": "Ubicación",
+    "email": "Correo electrónico",
+    "website": "Sitio web",
+    "whyChoose": "¿Por qué elegir ISE Consulting?",
+    "item1": "15+ años de experiencia internacional",
+    "item2": "Fórmula de transformación reconocida por la ONU",
+    "item3": "Experiencia en gestión de proyectos a nivel global",
+    "item4": "Equipo multilingüe y multicultural"
   }
 }

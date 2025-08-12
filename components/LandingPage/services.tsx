@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { sectionIds } from "./sectionIds";
 
 const services = [
   {
@@ -80,7 +81,10 @@ export const Services = () => {
   const { t } = useTranslation();
   return (
     <div className="flex flex-col px-4 md:px-10 gap-8 md:gap-12 max-w-6xl mx-auto">
-      <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center">
+      <h1
+        className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center"
+        id={sectionIds.services}
+      >
         {t("servicesSection.title")}
       </h1>
       <h2 className="md:text-lg font-normal md:text-center">

@@ -1,3 +1,5 @@
+import { sectionIds } from "@/components/LandingPage/sectionIds";
+
 export const navbarItems = [
   {
     label: "home",
@@ -5,14 +7,14 @@ export const navbarItems = [
   },
   {
     label: "about",
-    href: "/about",
+    href: `/#${sectionIds.about}`,
   },
   {
     label: "services",
-    href: "/services",
+    href: `/#${sectionIds.services}`,
   },
   {
     label: "contact",
-    href: "/contact",
+    href: `/#${sectionIds.contact}`,
   },
 ];

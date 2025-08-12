@@ -6,4 +6,5 @@ export const constants = {
     "Business permit: Nº 10165359/4. Authorized by le Gouvernement du Grand-Duché Du Luxembourg",
   copyright:
     "© 2025 International Impact & Social Economy Consulting Anais Chacón. All rights reserved.",
+  domain: "isocialeconomy.eu",
 };

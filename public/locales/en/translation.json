@@ -63,5 +63,18 @@
       "title": "Training and capacity building",
       "description": "We diagnose training needs, evaluate the level of existing capacities in organizations or territories, identifying key gaps and priorities. We design customized training plans, aligned with the strategic objectives of each actor. We offer specialized workshops, courses and modules (face-to-face, virtual or hybrid) on topics such as: Management of social economy organizations, Social innovation and purpose-driven entrepreneurship, Participatory governance and collective leadership, Project formulation and management with impact approach, Strategic alliances and international cooperation, Social impact measurement, Access to financing and European funds."
     }
+  },
+  "contactSection": {
+    "title": "Get in Touch",
+    "description": "Ready to start your next project? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "contact": "Contact",
+    "location": "Location",
+    "email": "Email",
+    "website": "Website",
+    "whyChoose": "Why Choose ISE Consulting?",
+    "item1": "15+ years of international experience",
+    "item2": "UN-recognized transformation formula",
+    "item3": "Global project management expertise",
+    "item4": "Multilingual and multicultural team"
   }
 }

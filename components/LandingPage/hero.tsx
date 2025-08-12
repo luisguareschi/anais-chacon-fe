@@ -1,14 +1,23 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "../ui/button";
+import { sectionIds } from "./sectionIds";
 
 export const Hero = () => {
   const { t } = useTranslation();
 
   const handleLearnMore = () => {
     // scroll to the about section
-    const aboutSection = document.getElementById("about");
+    const aboutSection = document.getElementById(sectionIds.about);
     if (aboutSection) {
       aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleContact = () => {
+    // scroll to the contact section
+    const contactSection = document.getElementById(sectionIds.contact);
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -25,7 +34,11 @@ export const Hero = () => {
           {t("hero.description")}
         </p>
         <div className="flex gap-4 w-full justify-center">
-          <Button variant="secondary" className="w-full md:w-fit">
+          <Button
+            variant="secondary"
+            className="w-full md:w-fit"
+            onClick={handleContact}
+          >
             {t("hero.contact")}
           </Button>
           <Button

@@ -1,5 +1,6 @@
 import { Eye, Heart, ShieldCheck, TrendingUp } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { sectionIds } from "./sectionIds";
 
 const aboutItems = [
   {
@@ -43,11 +44,11 @@ export const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div
-      className="flex flex-col px-4 md:px-10 gap-8 md:gap-12 max-w-6xl mx-auto"
-      id="about"
-    >
-      <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center">
+    <div className="flex flex-col px-4 md:px-10 gap-8 md:gap-12 max-w-6xl mx-auto">
+      <h1
+        className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center"
+        id={sectionIds.about}
+      >
         {t("aboutUs.title")}
       </h1>
       <p className="md:text-lg font-normal md:text-center">{t("aboutUs.p1")}</p>
