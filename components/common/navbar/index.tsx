@@ -61,6 +61,7 @@ export const Navbar = () => {
                     <Button
                       variant="link"
                       className="text-base active:text-primary-500 w-full active:bg-primary-100 rounded-md justify-start"
+                      onClick={() => setShowMenu(false)}
                     >
                       {t(item.label)}
                     </Button>
