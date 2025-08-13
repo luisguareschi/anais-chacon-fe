@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   const LogoWithTitle = () => (
     <div className="flex items-center gap-4">
-      <Logo className="bg-primary-700" />
+      <Logo />
       <div className="flex flex-col">
         <h1 className="text-xl lg:text-2xl font-semibold">ISE Consulting</h1>
         <h2 className="text-xs lg:text-sm font-normal">

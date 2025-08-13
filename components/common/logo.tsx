@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo.png";
 
 interface LogoProps {
   className?: string;
@@ -6,6 +8,10 @@ interface LogoProps {
 
 export const Logo = ({ className }: LogoProps) => {
   return (
-    <div className={cn("bg-white rounded-full size-10 min-w-10", className)} />
+    <img
+      src={logo.src}
+      alt="logo"
+      className={cn("size-10 min-w-10 bg-slate-100 rounded-full", className)}
+    />
   );
 };
