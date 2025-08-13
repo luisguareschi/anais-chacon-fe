@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
+import profilePicture from "@/assets/profile-pic.png";
 
 interface ProfilePictureProps {
   className?: string;
@@ -13,7 +14,7 @@ const ProfilePicture = ({ className }: ProfilePictureProps) => {
         "size-40 min-w-40 md:size-70 md:min-w-70 bg-white rounded-full p-2 border-2 border-slate-200 object-cover",
         className,
       )}
-      src="https://67b44193-e60b-40f3-9077-d72a7f79f29c.lovableproject.com/src/assets/director-portrait.jpg"
+      src={profilePicture.src}
       alt="Profile"
     />
   );
